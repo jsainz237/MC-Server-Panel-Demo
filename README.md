@@ -1,7 +1,9 @@
-# Company Code Test (Forked)
+# Company Code Test (Copy)
 ## Jesse Sainz
 
 I've decided utilize a **React + Typescript** front-end with a **Node.js + Express + Typescript** backend, along with a **PostgreSQL Database** to store the relevant data.
+
+:warning:**NOTE:** The reason there are very little commits is because I have to limit the visibility of company's private resources given for their technical interview. I removed the company's resources from this copy, so everything in this repository is my own.
 
 :warning:**NOTE:** I'm including docker files with environment variables so anyone can run the application. If this were going into production, the environment variables would not be pushed to the repository.
 
