@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.error-card {
+    background-color: #c04e4e !important;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+    .card-count {
+        font-size: 5em;
+    }
+
+    .toolbar {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,66 @@
+@import '../../variables';
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+  }
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.toolbar {
+    width: 100%;
+    padding: 0 35px;
+    //margin-bottom: 35px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 { color: white; margin: 0; }
+    span { 
+        margin-left: 25px;
+        color: $sb-blue;
+        cursor: pointer;
+    }
+
+    .live-dot {
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+        margin-right: 10px;
+        background-color: red;
+        animation-name: blink;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    p { color: white; margin: 0; }
+
+    div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 910px) {
+    .toolbar h1 {
+        font-size: 1.1em;
+        margin: 0;
+    }
+}
+
+.toolbar.errors {
+    span {
+        color: white;
+        cursor: default;
+    }
+}
+
+.graph-container {
+    flex: 1;
+}

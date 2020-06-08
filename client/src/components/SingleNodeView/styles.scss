@@ -1,0 +1,17 @@
+@import '../../variables';
+
+.server-table-container {
+    height: 15vh;
+    overflow-y: scroll;
+    margin: 0 35px;
+    color: white;
+
+    th, td {
+        text-align: left;
+    }
+
+    td {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+}

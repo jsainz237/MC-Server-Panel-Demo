@@ -1,0 +1,24 @@
+@import './variables';
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 35px;
+  background-color: #0a0a0a;
+
+  h1 {
+    color: white;
+  }
+}
+
+.toggle-container {
+  display: flex;
+}
+
+#app-custom-dropdown {
+  border: 2px solid $sb-blue;
+  background: none;
+  font-weight: bold;
+}
